@@ -50,6 +50,7 @@ ettm1_96 = ExperimentRun("ETTm1_96_96", config={
     "attention_func": None,
     "dropout": 0.5,
     "time_embedding": "",
+    "time_embedding_size": 0,
     "representation_module": "linear",
     "lstm_layer": 0,
     "tsrm_fc": False,

@@ -170,7 +170,7 @@ class REPNet(pl.LightningModule):
 
         optimizer = torch.optim.Adam(self.parameters(), lr=self.learning_rate,
                                      weight_decay=self.config.get("weight_decay", 0.))
-        scheduler = ReduceLROnPlateau(optimizer, mode="min", patience=2, verbose=True)
+        scheduler = ReduceLROnPlateau(optimizer, mode="min", patience=2)
         return {"optimizer": optimizer, "lr_scheduler": {"scheduler": scheduler, "interval": "epoch", "monitor": "val_loss", "frequency": 1, "strict": True}}
 
 
