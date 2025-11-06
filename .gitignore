@@ -4,3 +4,5 @@ all_six_datasets/
 # But *do not* ignore this specific file
 !all_six_datasets.zip
 .fuse_hidden*
+data_dir/
+.DS_Store
