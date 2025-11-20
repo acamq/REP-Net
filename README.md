@@ -1,5 +1,5 @@
-# Official implemetation of REP-Net
-This repository contains the implementation for REP-Net including experimental setups.
+# Modified implemetation of REP-Net
+This repository is an experimental fork of REP-Net including experimental setups.
 
 ## Requirements:
 You need to install all packages provided in requirements.txt.
