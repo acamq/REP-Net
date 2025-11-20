@@ -6,3 +6,6 @@ all_six_datasets/
 .fuse_hidden*
 data_dir/
 .DS_Store
+
+venv/
+.venv/
