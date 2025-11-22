@@ -23,6 +23,7 @@ if [ -f "data_dir.zip" ] && [ ! -d "data_dir" ]; then
 fi
 
 # Activate prebuilt venv and run
-echo "[start-repnet] Activating venv and starting run.py..."
+echo "[start-repnet] Activating venv"
 . /opt/repnet-venv/bin/activate
-python3 run.py
+#echo "[start-repnet] Running REP-Net"
+#python3 run.py
