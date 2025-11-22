@@ -25,5 +25,5 @@ fi
 # Activate prebuilt venv and run
 echo "[start-repnet] Activating venv"
 . /opt/repnet-venv/bin/activate
-#echo "[start-repnet] Running REP-Net"
-#python3 run.py
+echo "[start-repnet] Running REP-Net"
+python3 run.py

@@ -16,4 +16,4 @@ COPY start-repnet.sh /start-repnet.sh
 RUN chmod +x /start-repnet.sh
 
 # Start RunPod stack (sshd etc.), then our script
-CMD ["/bin/bash", "-lc", "/start.sh & sleep 20 && /start-repnet.sh"]
+CMD ["/bin/bash", "-lc", "/start.sh & sleep 5 && /start-repnet.sh; wait"]
